@@ -16,6 +16,7 @@
             if (disposing && (components != null))
             {
                 components.Dispose();
+                Console.WriteLine("abou dababa");
             }
             base.Dispose(disposing);
         }
