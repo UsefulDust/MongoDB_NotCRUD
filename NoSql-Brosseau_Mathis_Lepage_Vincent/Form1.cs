@@ -22,7 +22,7 @@ namespace NoSql_Brosseau_Mathis_Lepage_Vincent
 
         public Form1()
         {
-            IMongoDatabase db = client.GetDatabase("exemple");
+            db = client.GetDatabase("exemple");
             var joueurs = db.GetCollection<BsonDocument>("Joueurs");
             var filter = Builders<BsonDocument>.Filter.Eq("_id", 2);
             Console.WriteLine(joueurs.Find(filter));
