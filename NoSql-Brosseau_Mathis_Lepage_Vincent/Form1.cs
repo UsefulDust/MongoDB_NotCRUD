@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MongoDB.Driver;
 using MongoDB.Bson;
-using NoSql_Brosseau_Mathis_Lepage_Vincent.Properties;
 
 namespace NoSql_Brosseau_Mathis_Lepage_Vincent
 {
