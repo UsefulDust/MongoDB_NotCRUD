@@ -13,7 +13,7 @@ namespace NoSql_Brosseau_Mathis_Lepage_Vincent
 {
     public partial class Form1 : Form
     {
-        SqlConnection connSql = new SqlConnection("chaine de connection");
+        SqlConnection connSql = new SqlConnection("mongodb://localhost:27017");
 
         public Form1()
         {
