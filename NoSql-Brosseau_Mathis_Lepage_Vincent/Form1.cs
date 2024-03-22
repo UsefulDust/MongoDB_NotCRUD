@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace NoSql_Brosseau_Mathis_Lepage_Vincent
 {
     public partial class Form1 : Form
     {
+        SqlConnection connSql = new SqlConnection("chaine de connection");
+
         public Form1()
         {
             InitializeComponent();
